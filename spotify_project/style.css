@@ -1,0 +1,181 @@
+/* Reset e definições gerais*/
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+
+
+a:link{
+    text-decoration: none;
+    
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    border: 3px solid;
+    border-radius: 20px;
+    box-shadow: inset 100px 0 0 0  #1ed760;
+}
+
+/* definições de Layout*/
+.container{
+     font-family: 'Roboto', sans-serif;
+display: grid;
+grid-template-rows: 9em 32em 35em 17em;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-areas: "header header header header header" "main_top main_top main_top main_top main_top" " main_bottom  main_bottom  main_bottom  main_bottom  main_bottom" "footer footer footer footer footer";
+height: 100vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+grid-area: header;
+background: black;
+color: white;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+grid-area: main_top;
+background: rgb(183, 40, 191);
+}
+
+.bottom{
+grid-area: main_bottom;
+background: rgb(31, 107, 213);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+color:  #1ed760;
+font-family: sans-serif;
+}
+
+.footer{
+grid-area: footer;
+background: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+
+/* estilos do header*/
+.logo{
+padding-left: 2%;
+}
+.navbar{
+align-self: center;
+padding: 6%;
+
+}
+.list{
+    padding: 1rem;
+    color: white;
+}
+.mobile_menu_icon {
+    display: none;
+}
+
+.mobile_menu {
+    display: none;
+}
+.nav_link:hover{
+    color: black;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: inset 250px 0 0 0  #1ed760;
+    padding: 3%;
+}
+.nav_link{
+    color: white;
+}
+
+/* estilos da parte superior do conteudo principal*/
+.title_top{
+font-size: 70px;
+margin-left: 19%;
+}
+
+.paragraph_one_top{
+    padding-top: 2rem;
+padding-right: 32%;
+margin-left: 19%;
+}
+.button_top{
+font-family: 'Roboto', sans-serif;
+padding: 1em;
+background: black;
+color: white;
+border-radius: 20px;
+margin-left: 19%;
+margin-top: 3rem;
+font-size: 18px;
+}
+
+.button_top:hover{
+    border: 5px solid;
+    
+    box-shadow: inset 240px 0 0 0  #1ed760;
+cursor: pointer;
+}
+/* estilos da parte inferior do conteudo principal*/
+.title_bottom{
+    margin-left: 19%;
+    font-size: 70px;
+
+}
+
+.paragraph_one_bottom{
+    padding-top: 2rem;
+    margin-left: 19%;
+font-size: 20px;
+}
+
+.button_bottom{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 1em;
+    background:#1ed760;
+    color: rgb(21, 67, 182);
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-left: 19%;
+
+}
+.button_bottom:hover{
+        border: 5px solid;
+        
+        box-shadow: inset 180px 0 0 0  #1ed760;
+    cursor: pointer;
+
+}
+/* estilos do rodapé*/
+.logo_footer{
+    margin-bottom: 3%;
+    margin-left: 6%;
+
+}
+
+.year_footer{
+    margin-left: 35%;
+    position: relative;
+    bottom: 1rem;
+}
+

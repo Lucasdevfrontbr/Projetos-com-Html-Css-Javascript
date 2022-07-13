@@ -1,0 +1,182 @@
+*{
+
+margin: 0;
+padding: 0;
+}
+.background{
+  display: none;
+}
+.container{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+    font-family: 'Roboto', sans-serif;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+  .logo{
+margin-top: 5rem;
+text-align: left;
+margin-left: 2rem;
+  }
+.form{
+display: flex;
+flex-direction: column;
+margin-top: 5rem;
+gap: 2rem;
+}
+h1{
+    margin-left: 1.5rem;
+    font-size: 35px;
+}
+.input_form{
+max-width: 27rem;
+margin-left: 1.5rem;
+height: 2rem;
+border-radius: 8px;
+padding: 0.5rem;
+background: rgb(37, 36, 36);
+color: rgb(176, 169, 169);
+}
+button{
+    max-width: 28.5rem;
+    margin-left: 1.5rem;
+    height: 3.5rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background: rgb(226, 13, 13);
+    color: rgb(255, 240, 240);
+cursor: pointer;
+}
+
+
+@media  screen and (max-width:490px) {
+  .logo{
+    margin-right: 0.5rem;
+  }
+  .form{
+    margin-right: 4rem;
+  }
+
+}
+
+@media  screen and (max-width:244px) {
+  .logo{
+    position: relative;
+right: 1rem;
+    width: 50px;
+  }
+  .form{
+    margin-right: 1.5rem;
+  }
+
+}
+
+@media  screen and (min-width:750px) {
+  .container{
+
+    background-image: url(imagens/background.jpg);
+
+  }
+  .background{
+    display: block;
+    position: relative;
+opacity: 70%;
+    height: 100%;
+    background: black;
+    min-height: 100%;
+    
+  }
+  
+  .logo{
+    position: relative;
+    bottom: 38rem;
+    right: 1.2rem;
+ text-align: center;
+ z-index: 1;
+  }
+  .form{
+    text-align: center;
+    position: relative;
+    bottom: 42rem;
+    left: 26%;
+    border: solid 5px black;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+  width: 20rem;
+  padding-right: 2rem;
+  padding-left: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
+button{
+padding: 1rem;
+font-size: 18px;
+}
+}
+
+
+@media  screen and (min-width:840px) {
+
+  .form{
+  
+    left: 28%;
+    
+  }
+}
+
+@media  screen and (min-width:840px) {
+
+  .form{
+  
+    left: 28%;
+    
+  }
+}
+@media  screen and (min-width:910px) {
+
+  .form{
+  
+    left: 30%;
+    
+  }
+}
+
+
+@media  screen and (min-width:950px) {
+
+  .form{
+  
+    left: 31%;
+    
+  }
+}
+
+@media  screen and (min-width:1040px) {
+
+  .form{
+  
+    left: 33%;
+    
+  }
+}
+
+@media  screen and (min-width:1140px) {
+
+  .form{
+  
+    left: 33.6%;
+    
+  }
+}
+
+@media  screen and (min-width:1200px) {
+
+  .form{
+  
+    left: 36.4%;
+    
+  }
+}
