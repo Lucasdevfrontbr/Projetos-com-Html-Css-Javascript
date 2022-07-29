@@ -23,8 +23,6 @@ const url=fetch (`https://weather.contrateumdev.com.br/api/weather/city/?city=${
    if(temp){
    document.querySelector('#celsius').textContent= `${temp} ° C`
    }
-
-
   })
   .catch(function(erro){
     alert('Ocorreu um erro inesperado, não foi possivel acessar os dados')
