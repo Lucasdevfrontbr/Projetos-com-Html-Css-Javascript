@@ -10,14 +10,20 @@ const url=fetch (`https://weather.contrateumdev.com.br/api/weather/city/?city=${
     return response.json()
     
 })
-.then(jsonb =>{
-   let temp=document.querySelector('#celsius').innerHTML=jsonb.main.temp
+.then(json_data =>{
+<<<<<<< HEAD
+=======
+   console.log(jsonb)
+
+
+>>>>>>> b6dec3f05a631a1ea64c5a5e96d4a5aa6d802e6d
+   let temp=document.querySelector('#celsius').innerHTML=json_data.main.temp
   
-   let description=document.querySelector('#description').innerHTML=jsonb.weather[0].description
+   let description=document.querySelector('#description').innerHTML=json_data.weather[0].description
 
-   let name=document.querySelector('#name').innerHTML=jsonb.name
+   let name=document.querySelector('#name').innerHTML=json_data.name
 
-   let country=document.querySelector('#country').innerHTML=jsonb.sys.country
+   let country=document.querySelector('#country').innerHTML=json_data.sys.country
 
    if(temp){
    document.querySelector('#celsius').textContent= `${temp} ° C`
@@ -32,4 +38,8 @@ const url=fetch (`https://weather.contrateumdev.com.br/api/weather/city/?city=${
 }
 }
 btn.addEventListener('click',Buscar_Cidade)
+<<<<<<< HEAD
+=======
+console.log(fetch)
+>>>>>>> b6dec3f05a631a1ea64c5a5e96d4a5aa6d802e6d
 
