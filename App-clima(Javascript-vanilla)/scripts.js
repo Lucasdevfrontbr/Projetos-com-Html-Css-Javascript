@@ -11,12 +11,7 @@ const url=fetch (`https://weather.contrateumdev.com.br/api/weather/city/?city=${
     
 })
 .then(json_data =>{
-<<<<<<< HEAD
-=======
-   console.log(jsonb)
 
-
->>>>>>> b6dec3f05a631a1ea64c5a5e96d4a5aa6d802e6d
    let temp=document.querySelector('#celsius').innerHTML=json_data.main.temp
   
    let description=document.querySelector('#description').innerHTML=json_data.weather[0].description
@@ -38,8 +33,3 @@ const url=fetch (`https://weather.contrateumdev.com.br/api/weather/city/?city=${
 }
 }
 btn.addEventListener('click',Buscar_Cidade)
-<<<<<<< HEAD
-=======
-console.log(fetch)
->>>>>>> b6dec3f05a631a1ea64c5a5e96d4a5aa6d802e6d
-
