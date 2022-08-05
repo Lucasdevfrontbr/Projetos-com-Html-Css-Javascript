@@ -1,7 +1,7 @@
 <template>
 <div class="container">
   <h1>To Do list </h1>
-  <input v-model="campo" type="text" placeholder="Tarefa" inputmode="text">
+  <input v-model="campo" type="text" placeholder="Tarefa">
   <button @click="adicionar" type="button">Adicionar</button>
   <ul>
     <li v-for="task in tasks" :key="task">{{task}}</li>
