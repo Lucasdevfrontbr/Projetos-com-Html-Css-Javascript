@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+border: 0;
+margin: 0;
+padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #17162E;
+    min-height: 120vh;
+    
+font-family: 'Roboto', sans-serif;
+
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #17162E;
+    min-height: 12rem;
+    color: rgb(245, 236, 236);
+}
+.principal{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  grid-template-rows: max-content;  
+   background: #18162c;
+    color: white;
+    min-height: 20rem; 
+    margin-left: 1rem;
+    gap: 4.5%;
+}
+.cabeçalho h1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5em;
+}
+.first_input_cabeçalho{
+height: 2rem;
+background: #f7f1f1;
+width: 19rem;
+border-radius: 10px;
+padding-left: 2rem;
+}
+.cabeçalho button{
+    position: relative;
+    bottom: 1.5rem;
+    left: 9rem;
+    
+}
+.p_cabeçalho{
+   padding-left: 0.5rem;
+   font-size: 0.7em;
+
+}
+.movies{
+    display: flex;
+    flex-direction: column;
+    min-height: 10rem;
+}
+.title_movies{
+    font-size: 0.7em;
+    text-align: center;
+   margin-right: 0.7rem;
+}
+
+.img_movies{
+    margin-top: 1rem;
+ margin-left: 4rem;
+    margin-bottom: 1rem;
+width: 50%;
+-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}

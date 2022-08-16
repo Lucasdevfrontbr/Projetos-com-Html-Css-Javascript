@@ -9,7 +9,7 @@ body{
    align-items: center;
     flex-wrap: wrap;
     background: rgb(232, 234, 235);
-    height: 100vh;
+    min-height: 100vh;
 }
 form{
  margin-top: 1rem;
