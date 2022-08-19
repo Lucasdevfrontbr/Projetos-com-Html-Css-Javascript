@@ -7,7 +7,7 @@ padding: 0;
 .container{
     display: flex;
     flex-direction: column;
-    background: #17162E;
+    background: #050505;
     min-height: 120vh;
     
 font-family: 'Roboto', sans-serif;
@@ -17,15 +17,15 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #17162E;
+    background: #050505;
     min-height: 12rem;
     color: rgb(245, 236, 236);
 }
 .principal{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
-  grid-template-rows: max-content;  
-   background: #18162c;
+  
+  background: #050505;
     color: white;
     min-height: 20rem; 
     margin-left: 1rem;
@@ -39,21 +39,17 @@ font-family: 'Roboto', sans-serif;
 .first_input_cabeçalho{
 height: 2rem;
 background: #f7f1f1;
-width: 19rem;
+width: 16rem;
 border-radius: 10px;
 padding-left: 2rem;
 }
 .cabeçalho button{
     position: relative;
     bottom: 1.5rem;
-    left: 9rem;
+    left: 8rem;
     
 }
-.p_cabeçalho{
-   padding-left: 0.5rem;
-   font-size: 0.7em;
 
-}
 .movies{
     display: flex;
     flex-direction: column;
@@ -67,9 +63,118 @@ padding-left: 2rem;
 
 .img_movies{
     margin-top: 1rem;
+    border-radius: 15px;
  margin-left: 4rem;
     margin-bottom: 1rem;
 width: 50%;
--webkit-box-shadow: 5px 5px 15px 5px #000000; 
-box-shadow: 5px 5px 15px 5px #000000;
+-webkit-box-shadow: 5px 5px 15px 5px #1f1e1e; 
+box-shadow: 5px 5px 15px 5px #1f1e1e;
+}
+
+@media screen and (max-width: 584px){
+    .title_movies{
+        margin-left: 0.5rem;
+    }
+}
+@media screen and (max-width: 523px){
+    .title_movies{
+        margin-left: 1.5rem;
+        
+    }
+}
+@media screen and (max-width: 500px){
+    
+    
+    .movies{
+margin-left: 3.5rem;
+    }
+    .title_movies{
+        margin-right: 6rem;
+        
+    }
+
+
+}
+@media screen and (max-width: 487px){
+    .movies{
+margin-left: 3.5rem;
+    }
+    .title_movies{
+        margin-right: 6rem;
+        
+    }
+
+}
+@media screen and (max-width:466px) {
+    .title_movies{
+        margin-right: 5.5rem;
+       
+    }
+}
+
+@media screen and (max-width: 440px){
+    .movies{
+margin-left: 2.5rem;
+    }
+    .title_movies{
+     margin-left: 2.5rem;
+
+    }
+}
+@media screen and (max-width: 400px){
+    .movies{
+        position: relative;
+      right: 0.5rem;
+    }
+    .title_movies{
+        position: relative;
+        left: 0.3rem;
+    }
+
+}
+@media screen and (max-width: 350px){
+    .movies{
+        position: relative;
+      right: 1rem;
+    }
+    .title_movies{
+        position: relative;
+        left: 1.3rem;
+    }
+    .first_input_cabeçalho{
+        height: 2rem;
+        background: #f7f1f1;
+        width: 15rem;
+        border-radius: 10px;
+        padding-left: 2rem;
+        }
+        .cabeçalho button{
+            position: relative;
+            bottom: 1.5rem;
+            left: 7.5rem;
+            
+        }
+}
+@media screen and (max-width: 280px){
+    .movies{
+        position: relative;
+      right: 3rem;
+    }
+    .title_movies{
+        position: relative;
+        left: 3rem;
+    }
+    .first_input_cabeçalho{
+        height: 2rem;
+        background: #f7f1f1;
+        width: 12rem;
+        border-radius: 10px;
+       
+        }
+        .cabeçalho button{
+            position: relative;
+            bottom: 1.5rem;
+            left: 5.5rem;
+            
+        }
 }

@@ -28,8 +28,8 @@ movies.appendChild(image)
 
 main.appendChild(movies)
 }
-
 show_movies()
+
 function clear_input(){
 campo.value=''
 }
