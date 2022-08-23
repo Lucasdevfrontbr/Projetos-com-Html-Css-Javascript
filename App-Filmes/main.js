@@ -10,6 +10,9 @@ const url = fetch (`https://api.themoviedb.org/3/search/movie?api_key=${key}&lan
  console.log(movies_data)
 
  function show_movies(){
+let body= document.querySelector('body')
+body.style.height='3rem'
+
   const {title, poster_path}= movies_data.results[0]
   const im='https://image.tmdb.org/t/p/w500'
    let main= document.querySelector('main')
