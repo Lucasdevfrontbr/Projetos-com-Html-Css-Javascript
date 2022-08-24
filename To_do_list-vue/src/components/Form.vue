@@ -22,8 +22,10 @@ return{
 },
 methods:{
 adicionar(){
+  if(this.campo){
 this.tasks.push(this.campo)
 this.campo=''
+  }
  }
  
 }
@@ -54,5 +56,7 @@ button{
 li{
   position: relative;
   right: 1rem;
+list-style: none;
 }
+
 </style>
