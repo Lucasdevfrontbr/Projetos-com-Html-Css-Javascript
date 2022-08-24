@@ -73,17 +73,32 @@ width: 50%;
 -webkit-box-shadow: 5px 5px 15px 5px #1f1e1e; 
 box-shadow: 5px 5px 15px 5px #1f1e1e;
 }
-
+@media screen and (max-width: 768px){
+    .title_movies{
+        margin-right: 1.5rem;
+    }
+    .principal{
+        margin-left: 4rem;
+    }
+}
 @media screen and (max-width: 584px){
     .title_movies{
-        margin-left: 0.5rem;
+        margin-left: 2rem;
     }
+    .principal{
+        margin-left: 2rem;
+    }
+
 }
 @media screen and (max-width: 523px){
     .title_movies{
-        margin-left: 1.5rem;
+        margin-right: 5.5rem;
         
     }
+    .principal{
+        margin-left: 6rem;
+    }
+
 }
 @media screen and (max-width: 500px){
     
@@ -92,8 +107,11 @@ box-shadow: 5px 5px 15px 5px #1f1e1e;
 margin-left: 3.5rem;
     }
     .title_movies{
-        margin-right: 6rem;
+        margin-right: 5.5rem;
         
+    }
+    .principal{
+        margin-left: 2rem;
     }
 
 
@@ -103,15 +121,18 @@ margin-left: 3.5rem;
 margin-left: 3.5rem;
     }
     .title_movies{
-        margin-right: 6rem;
+        margin-right: 5.5rem;
         
     }
 
 }
 @media screen and (max-width:466px) {
     .title_movies{
-        margin-right: 5.5rem;
+        margin-right: 5rem;
        
+    }
+    .principal{
+        margin-left: 1.5rem;
     }
 }
 
