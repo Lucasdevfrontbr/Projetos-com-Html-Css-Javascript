@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    }
+    
+    :root {
+      font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    
+    
+    }
+    .list{
+      background: rgb(230, 23, 23);
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+     
+      list-style: none;
+    }
+    .item{
+    margin: 1rem;
+    color: white;
+    }
