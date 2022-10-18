@@ -1,0 +1,48 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.App{
+  min-height: 100vh;
+  background: rgb(22, 22, 22) ;
+}
+h1{
+text-align: center;
+color: white;
+}
+.results{
+  background: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+ width: 20rem;
+ height: 10rem;
+ align-items: center;
+ justify-content: center;
+ margin-top: 3rem;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background: rgb(22, 22, 22) ;
+height: 91vh;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.item{
+  padding-bottom: 0.5rem;
+}
+input{
+  height: 2rem;
+  border-radius: 3px;
+}
+.btn {
+cursor: pointer;
+}
