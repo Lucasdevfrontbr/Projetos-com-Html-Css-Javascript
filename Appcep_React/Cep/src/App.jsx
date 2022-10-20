@@ -17,8 +17,7 @@ return
   })
  .then(res=>{
 setcep(res)
-  }).catch(alert('Ocorreu um erro'))
-setvalue("")
+  })
 }
 
   return (
