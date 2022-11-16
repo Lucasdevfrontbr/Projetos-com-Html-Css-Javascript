@@ -1,0 +1,7 @@
+- FILMES POPULARES [ReactJS, React Router, Hooks,Flexbox]
+Link: https://new-movies-react-app.netlify.app/
+• Neste projeto, usando o hooks e fetch API, consumi uma API para
+pegar dados de filmes populares e os filmes com maior aprovação
+nessa API de filmes e mostrar esses dados na tela.
+• Configurei rotas através da biblioteca React Router.
+• posicionei os itens usando o FlexBox.
