@@ -20,7 +20,7 @@ useEffect(function(){
     <main className='main'>
      
 {movies.map((movie)=>{
-return <Data name={movie.title} img={`${image_path}${movie.poster_path}`}/>
+return <Data id={movie.id} name={movie.title} img={`${image_path}${movie.poster_path}`}/>
 })}
 
 

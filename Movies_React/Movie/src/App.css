@@ -1,4 +1,28 @@
-:root{
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+margin: 0;
+border: 0;
+box-sizing: border-box;
+}
+.App {
+  font-family: 'Roboto', sans-serif;
   background: rgb(24, 23, 23);
-  height: 100vh;
+  min-height: 100vh;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+
+ 
+}
+.title{
+  margin-top: 0.5rem;
+ display: flex;
+ justify-content: center;
+}
+a{
+  text-decoration: none;
+  font-size: 1.7em;
 }

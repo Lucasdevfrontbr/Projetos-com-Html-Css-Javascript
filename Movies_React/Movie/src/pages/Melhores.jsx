@@ -11,14 +11,14 @@ export function Melhores(){
     .then(res=> setbest(res.results))
   },[])
     return (
-<div>
+<div className="App">
 <HeaderElement/>
 <div className="title">
   <h1>Melhores Avaliados</h1>
 </div>
 <main className="main">
 {best.map(function(i){
-    return <Data name={i.title} img={`${image_path}${i.poster_path}`} />
+    return <Data id={i.id} name={i.title} img={`${image_path}${i.poster_path}`} />
 })}
 </main>
 </div>
