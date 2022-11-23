@@ -24,6 +24,10 @@ const Img=styled.section`
 display: flex;
 justify-content: center;
 margin-right: 2rem;
+
+@media (max-width: 400px){
+   margin-top:1.5rem;
+{
 `
 
 const Title=styled.span`
