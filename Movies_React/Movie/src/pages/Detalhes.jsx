@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 import './Detalhes.css'
 
 const Container=styled.div`
-height: 94vh;
+min-height: 94vh;
         display: flex;
         flex-direction: column;
         background: black;
@@ -26,7 +26,7 @@ justify-content: center;
 margin-right: 2rem;
 
 @media (max-width: 400px){
-   margin-top:1.5rem;
+   margin-top:8rem;
 {
 `
 
