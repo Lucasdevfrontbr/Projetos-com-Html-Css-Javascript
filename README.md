@@ -1,2 +1,2 @@
-# Projetos-com-Html-Css-Javascript-Vue
- Projetos desenvolvidos com tecnologias Front-End
+# Projetos-com-Html-CSS-Javascript-React-Vue
+ Projetos desenvolvidos com linguagens e frameworks do Front-End
