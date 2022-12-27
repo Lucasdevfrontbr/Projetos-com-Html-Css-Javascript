@@ -1,0 +1,2 @@
+- BANDAS FAVORITAS [NodeJS, Express, ReactJS, Hooks, Flexbox, Styled-components]
+• Neste meu primeiro projeto full-stack, construi uma API simples com nodejs e express com minhas bandas favoritas e renderizei esses dados no front-end usando hooks, fetch para se conectar a API, flexbox no posicionamento e styled-components na estilização.
