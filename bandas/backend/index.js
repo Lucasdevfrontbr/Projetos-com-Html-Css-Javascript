@@ -18,7 +18,7 @@ app.get('/',(req,res)=>{
             },
             {
                name:'Os mutantes',
-               img:'https://www.muzplay.net/sites/default/files/styles/artista-slideshow/public/posts/fotos/mutantes-01604.jpg',
+               img:'https://upload.wikimedia.org/wikipedia/pt/thumb/8/81/Mutantes_1968.jpg/220px-Mutantes_1968.jpg',
                country:'Brasil'
             }
          ]
