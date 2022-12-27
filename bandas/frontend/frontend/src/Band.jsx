@@ -7,7 +7,8 @@ padding:1rem;
  border-radius:1rem;
  ` 
  const Title=styled.h1`
- 
+  width:100%;
+  text-align:center;
  `    
  const Country=styled.p`
  text-align:center;
