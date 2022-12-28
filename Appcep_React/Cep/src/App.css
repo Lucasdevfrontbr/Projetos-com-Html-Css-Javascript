@@ -41,8 +41,12 @@ height: 91vh;
 }
 input{
   height: 2rem;
-  border-radius: 3px;
+  border-radius: 7px;
+  padding: 1rem;
 }
 .btn {
 cursor: pointer;
+height: 2.3rem;
+padding: 0.5rem;
+border-radius: 7px;
 }

@@ -1,6 +1,7 @@
 import { useState } from 'react'
-
+import Res from './Res'
 import './App.css'
+import { Datacontext } from './Datacontext'
 
 function App() {
   const [value, setvalue] = useState('')
@@ -26,18 +27,16 @@ setcep(res)
       <main className='main'>
       <h1>Buscador de Cep</h1>
       <div className='form'>
-<input  type="text" placeholder='digite um Cep' value={value} onChange={(e)=>setvalue(e.target.value)} />
+<input  type="text" placeholder='Digite um Cep' value={value} onChange={(e)=>setvalue(e.target.value)} />
 
 <button className='btn' onClick={GetCep}>Buscar</button>
     
 </div>
-{value &&(
-<section className='results' >
-<span className='item'>{cep.logradouro}</span> 
-<span className='item'>{cep.complemento}</span> 
-<span className='item'>{cep.bairro}</span> 
-<span className='item'>{cep.localidade} {cep.uf}</span>
-</section>)}
+<Datacontext.Provider value={{cep,setcep, value,setvalue}}>
+<Res/>
+    </Datacontext.Provider>
+
+
 </main>
 </div>
 )

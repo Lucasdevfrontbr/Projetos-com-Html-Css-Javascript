@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import styled from 'styled-components'
 import { Band } from './Band'
-
 const Container=styled.div`
 min-height: 10vh;
 background: #fff9f9;
@@ -35,15 +34,17 @@ function App() {
   },[])
 
   return (
-   <Container>
-    <Title>Bandas favoritas</Title>
-<Main>
-  {band.map(function(i){
-    return <Band img={i.img} name={i.name} country={i.country}/>
-  })}
-</Main>
 
-   </Container>
+   
+     <Container>
+      <Title>Bandas favoritas</Title>
+     <Main>
+       {band.map(function(i){
+      return <Band img={i.img} name={i.name} country={i.country}/>
+       })}
+     </Main>
+     </Container>
+
   )
 }
 
