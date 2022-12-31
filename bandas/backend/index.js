@@ -4,8 +4,8 @@ const cors=require('cors')
 app.listen(8800)
 app.use(cors())
 app.get('/',(req,res)=>{
-    res.send(
-        
+    res.json(
+      
          [
             {name:'The beatles',
          img:'https://hqrock.files.wordpress.com/2020/01/images-17734304960397465809..jpg?w=554',
@@ -22,6 +22,5 @@ app.get('/',(req,res)=>{
                country:'Brasil'
             }
          ]
-        
-    
+
     )})
