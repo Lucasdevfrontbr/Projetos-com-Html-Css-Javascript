@@ -16,7 +16,7 @@ align-items:center;
 
 `
 const Main=styled.main`
- background: #fff9f9;
+ background: white;
 display:flex;
 justify-content:center;
 align-items:center;
