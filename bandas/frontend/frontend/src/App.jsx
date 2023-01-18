@@ -28,7 +28,7 @@ flex-wrap:wrap;
 function App() {
   const [band, setband] = useState([])
   useEffect(function(){
-    fetch('https://bandproject.vercel.app/')
+    fetch('http://localhost:8800/')
     .then(response=>response.json())
     .then(res=>setband((res)))
   },[])

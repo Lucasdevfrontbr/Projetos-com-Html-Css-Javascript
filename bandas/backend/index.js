@@ -7,7 +7,7 @@ app.get('/',(req,res)=>{
     res.json(
       
          [
-            {name:'The beatles',
+            {name:'Beatles',
          img:'https://hqrock.files.wordpress.com/2020/01/images-17734304960397465809..jpg?w=554',
          country:'Inglaterra'
             },
@@ -17,9 +17,9 @@ app.get('/',(req,res)=>{
                country:'Australia'
             },
             {
-               name:'Os mutantes',
-               img:'https://upload.wikimedia.org/wikipedia/pt/thumb/8/81/Mutantes_1968.jpg/220px-Mutantes_1968.jpg',
-               country:'Brasil'
+               name:'White Stripes',
+               img:'https://i.scdn.co/image/ab67616d0000b273a69f71a8794e2d867a52f98f',
+               country:'EUA '
             }
          ]
 
