@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Band } from './Band'
 const Container=styled.div`
 min-height: 10vh;
-background: #fff9f9;
+background: white;
         width: 100%;
         font-family:sans-serif;
         padding-top:5rem;
