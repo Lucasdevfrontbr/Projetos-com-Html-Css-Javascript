@@ -1,6 +1,12 @@
 *{
 color: white;
 }
+img:hover{
+  transition: all .3s;
+  transform: scale(0.9);
+  
+}
+
 img{
    width: 180px; 
    border-radius: 1rem;
@@ -8,7 +14,6 @@ img{
 span{
   padding: 0.2rem;
   text-align: center;
- 
 }
 .container{
 background: rgb(42, 44, 39);
